@@ -5,7 +5,7 @@ function varTest(){
         console.log(v);
     }
     console.log(v)
-}
+}4
 
 function varTest(){
     let v=1;
