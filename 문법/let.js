@@ -1,17 +1,17 @@
-function varTest(){
-    var v=1;
+{
+    var l = 1
     {
-        var v=2;
-        console.log(v);
+        var l = 2
+        console.log(l)  // 2
     }
-    console.log(v)
-}4
+    console.log(l)      // 2(주의)
+}
 
-function varTest(){
-    let v=1;
+{
+    let l = 1
     {
-        let v=2;
-        console.log(v);
+        let l = 2
+        console.log(l)  // 2
     }
-    console.log(v)
+    console.log(l)      // 1
 }
