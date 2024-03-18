@@ -7,3 +7,8 @@ const cathy={
 console.log(cathy)
 console.log(cathy.name)
 console.log(cathy["name"])
+
+cathy["취미"]="독서"
+
+delete cathy.취미
+console.log(cathy)
